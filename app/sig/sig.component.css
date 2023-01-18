@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+  }
+  .navbar{
+    background-color: cadetblue;
+    text-align: center;
+    
+
+  }
+  .card{
+    width: 550px;
+    background-color: darkcyan;
+  }
+  table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: #96D4D4;
+  }

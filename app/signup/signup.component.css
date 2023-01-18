@@ -1,0 +1,38 @@
+.navbar{
+    top:0;
+    width: 100;
+}
+.card{
+    margin-top: 15px;
+    border: 1px solid blue;
+    width: 650px;
+    padding: 45px;
+    position:absolute;
+    top:10%;
+    left:30%;
+    background-color: brown;
+
+}
+h5,h1{
+    color:yellow
+    }
+    .form-label{
+        color:white;
+        font-size: large;
+    }
+    h2{
+        position: relative;
+        left: 38%;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 50px;   /* Height of the footer */
+      background-color: tomato;
+      }
+      .ankit{
+        background-color:blue;
+        width: 100%;
+        height: 150vh;
+    }

@@ -1,0 +1,13 @@
+.navbar{
+    background-color: blue;
+    width: 100px;
+    position: fixed;
+}
+body{
+    background-image: url("https://www.intechnic.com/hubfs/Blog/Featured%20Images/Best%20Restaurant%20Website%20Design%20Inspirations.jpg"  );
+    height:100vh;
+}
+h1{
+    height: 20px;
+    
+}

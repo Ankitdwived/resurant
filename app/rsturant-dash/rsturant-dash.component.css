@@ -1,0 +1,27 @@
+
+.navbar navbar-light bg-primary{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;   /* Height of the footer */
+  background-color: tomato;
+}
+h2{
+    position: relative;
+    left: 4%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;   /* Height of the footer */
+  background-color: tomato;
+  }
+  .ankit{
+    position: fixed;
+    top:0;
+    width: 100%;
+  }
+  .dwivedi{
+    top: 50px;
+  }

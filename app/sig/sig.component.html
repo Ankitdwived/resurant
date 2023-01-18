@@ -1,0 +1,46 @@
+<div class="Ankit">
+<!-- Just an image -->
+<nav class="navbar ">
+    <a  href="#">
+      <h1>hello</h1>
+    </a>
+  </nav>
+<br>
+  <div class="container">
+<div class="card">
+
+    <form [formGroup]="sig" (ngSubmit)="signUp()" >
+    
+       <label>Name:</label>
+<input  formControlName="name" type="text" class="form-control" id="exampleInputname" aria-describedby="emailHelp" placeholder="Enter name">
+<br>
+<label>Address:</label>
+<input  formControlName="address" type="text" class="form-control" id="exampleInputaddress" aria-describedby="emailHelp" placeholder="Enter add">
+
+<br>
+<label>Mobile:</label>
+<input  formControlName="mob" type="text" class="form-control" id="exampleInputmob" aria-describedby="emailHelp" placeholder="Enter mobile">
+
+<button type="submit" class="btn btn-primary">Signup</button>
+    </form>
+
+    </div>
+
+
+  </div>
+  <table border="">
+    <tr>
+      <th>Id</th>
+      <th>name</th>
+      <th>mobile</th>
+      <th>add</th>
+    </tr>
+    <tr *ngFor="let us of alllListdata">
+      <td>{{us.id}}</td>
+      <td>{{us.name}}</td>
+      <td>{{us.mob}}</td>
+      <td>{{us.address}}</td>
+      
+    </tr>
+  </table>
+</div>

@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body class="dewedi">
+  
+
+
+<div >
+  <div class="row">
+
+   <div class="uncle">
+    <nav class="navbar " style="background-color:green">
+      <h2 style="text-align:center"> Punjabi Resturant</h2>
+    </nav>
+   </div>
+    <div class="container ">  
+
+      <div class="row">
+        <div class="col-md-6"><br>
+
+          <div class="card">
+            <div class="text-center">
+              <h1>❤️❤️Resturant Login❤️❤️</h1>
+              <h5>feel free to login </h5>
+              <hr>
+            </div>
+            <h3>   <p style="color:white"><marquee><b>WELCOME TO ❤️PUNJABI BY NATURE</b></marquee></p></h3>
+
+            <form [formGroup]="loginForm" (ngSubmit)="login()">
+              <div class="mb-3">
+                <label class="form-label">Email address</label>
+                <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1"
+                  aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <a routerLink="/signup">New User ? Click to Signup</a>
+          </div>
+        </div>
+      </div>
+    </div>   
+
+
+    <footer class="footer">
+      <div class="container-fluid">
+
+        <div class="row" style=" padding-top: 1px; margin-left: 150px;font-weight: 500;">
+          <div class="col-md-4">
+            <h6 style="color:white">&Rsturant good</h6>
+
+          </div>
+          <div class="col-md-8">
+            <h6 style="color:white">&nbsp;Terms & Conditions&nbsp;|&nbsp;&nbsp; Help|&nbsp; Version&nbsp; |&nbsp;Product
+              Manual : SwarmHR&nbsp; |&nbsp;ATS</h6>
+
+          </div>
+
+
+        </div>   
+
+      </div>
+    </footer>
+  </div>
+
+</div>
+</body>
+</html>

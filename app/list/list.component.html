@@ -1,0 +1,41 @@
+<div class="container-fluid">
+  <h1>dasf</h1>
+    <div class="ankit">
+        <form [formGroup]="listfrom"(ngSubmit)="listup()">
+            <div class="mb-3">
+              <label  class="form-label">Name</label>
+              <input  formControlName="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+            </div>
+
+
+
+              <div class="mb-3">
+                <label  class="form-label">add</label>
+                <input   formControlName="add" type="email" class="form-control" id="exampleInputPassword1" placeholder="enter a address">
+              </div>
+
+
+            <div class="mb-3">
+              <label  class="form-label">Password</label>
+              <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter a password">
+            </div>
+           
+            <button type="submit" class="btn btn-primary">Signup</button>
+          </form>
+    </div>
+</div>
+<div class="container">
+    <table border="table">
+        <tr>
+            <th>name</th>
+            <th>add</th>
+            <th>password</th>
+        </tr>
+        <tr *ngFor="let da of allListdata">
+            <td>{{da.name}}</td>
+            <td>{{da.add}}</td>
+            <td>{{da.password}}</td>
+        </tr>
+    </table>
+</div>
+

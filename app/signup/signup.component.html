@@ -1,0 +1,64 @@
+
+
+<div class="ankit">
+    <nav class="navbar " style="background-color:green;">
+      <h2 style="text-align:center"> Punjabi Resturant Signup</h2>
+       </nav>
+
+ <div class="container">
+    <div class="row">
+      <div class="card">
+                <div class="text-center">
+                    <h1>Resturant Signup</h1>
+                    <h5> ❤️Get  free to login❤️ </h5>
+                  <hr>  </div>
+                    <form [formGroup]="signupForm"(ngSubmit)="signUp()">
+                        <div class="mb-3">
+                          <label  class="form-label">Name</label>
+                          <input  formControlName="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label  class="form-label">Mobile</label>
+                            <input   formControlName="mobile" type="text" class="form-control" id="exampleInputPassword1" placeholder="enter a mobile number">
+                          </div>
+
+                          <div class="mb-3">
+                            <label  class="form-label">Email</label>
+                            <input   formControlName="email" type="email" class="form-control" id="exampleInputPassword1" placeholder="enter a email">
+                          </div>
+
+
+                        <div class="mb-3">
+                          <label  class="form-label">Password</label>
+                          <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter a password">
+                        </div>
+                       
+                        <button type="submit" class="btn btn-primary">Signup</button>
+                      </form>
+                      <a routerLink="/login">Already Member ? Click to Login</a>
+
+                </div>
+            </div>
+        
+    </div>
+
+    <footer class="footer">
+      <div class="container-fluid" >
+      
+           <div class="row"style=" padding-top: 1px; margin-left: 150px;font-weight: 500;">
+               <div class="col-md-4">
+                   <h6 style="color:white">&Rsturant good</h6>
+                  
+               </div>
+               <div class="col-md-8">
+                 <h6 style="color:white">&nbsp;Terms & Conditions&nbsp;|&nbsp;&nbsp; Help|&nbsp; Version&nbsp; |&nbsp;Product Manual : SwarmHR&nbsp; |&nbsp;ATS</h6>
+                  
+               </div>
+               
+           </div>
+           </div>
+     </footer>
+     
+     
+    </div>
